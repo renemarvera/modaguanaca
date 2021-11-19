@@ -1,0 +1,233 @@
+.woo-chatbot-wrap {
+    margin: 0 0px;
+}
+
+.woo-chatbot-wrap h2 {
+    font-size: 23px !important;
+    color: #fff;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.qc_get_pro {
+    text-align: right;
+    float: right;
+    padding-bottom: 0px;
+}
+
+.qc_get_pro p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.qc_get_pro h2 a {
+    text-decoration: none;
+    background: #FCB214;
+    color: #fff;
+    padding: 8px 16px;
+    display: table;
+}
+
+.woo-chatbot-wrap input[type="text"].shop-jarvis-button-text {
+    display: block;
+    width: 700px !important;
+}
+
+/*CHECKBOX*/
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*.woo-chatbot-wrap form {
+    width: 400px;
+}*/
+.woo-chatbot-tabs label{
+    font-weight: 700;
+}
+
+.woo-chatbot-wrap legend {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.woo-chatbot-wrap fieldset {
+    padding: 15px;
+}
+
+.woo-chatbot-wrap input[type=checkbox] {
+    opacity: 0;
+    float: left;
+}
+
+.woo-chatbot-wrap input[type=checkbox] + label {
+    margin: 0 0 0 20px;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    float: left;
+}
+
+.woo-chatbot-wrap input[type=checkbox] + label ~ label {
+    margin: 0 0 0 40px;
+}
+
+.woo-chatbot-wrap input[type=checkbox] + label::before {
+    content: ' ';
+    position: absolute;
+    left: -35px;
+    top: -3px;
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: white;
+    border: 1px solid #A9A9A9;
+}
+
+.woo-chatbot-wrap input[type=checkbox] + label::after {
+    content: ' ';
+    position: absolute;
+    left: -35px;
+    top: -3px;
+    width: 23px;
+    height: 23px;
+    display: block;
+    z-index: 1;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjE4MS4yIDI3MyAxNyAxNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAxODEuMiAyNzMgMTcgMTYiPjxwYXRoIGQ9Ik0tMzA2LjMgNTEuMmwtMTEzLTExM2MtOC42LTguNi0yNC04LjYtMzQuMyAwbC01MDYuOSA1MDYuOS0yMTIuNC0yMTIuNGMtOC42LTguNi0yNC04LjYtMzQuMyAwbC0xMTMgMTEzYy04LjYgOC42LTguNiAyNCAwIDM0LjNsMjMxLjIgMjMxLjIgMTEzIDExM2M4LjYgOC42IDI0IDguNiAzNC4zIDBsMTEzLTExMyA1MjQtNTI0YzctMTAuMyA3LTI1LjctMS42LTM2eiIvPjxwYXRoIGZpbGw9IiMzNzM3MzciIGQ9Ik0xOTcuNiAyNzcuMmwtMS42LTEuNmMtLjEtLjEtLjMtLjEtLjUgMGwtNy40IDcuNC0zLjEtMy4xYy0uMS0uMS0uMy0uMS0uNSAwbC0xLjYgMS42Yy0uMS4xLS4xLjMgMCAuNWwzLjMgMy4zIDEuNiAxLjZjLjEuMS4zLjEuNSAwbDEuNi0xLjYgNy42LTcuNmMuMy0uMS4zLS4zLjEtLjV6Ii8+PHBhdGggZD0iTTExODcuMSAxNDMuN2wtNTYuNS01Ni41Yy01LjEtNS4xLTEyLTUuMS0xNy4xIDBsLTI1My41IDI1My41LTEwNi4yLTEwNi4yYy01LjEtNS4xLTEyLTUuMS0xNy4xIDBsLTU2LjUgNTYuNWMtNS4xIDUuMS01LjEgMTIgMCAxNy4xbDExNC43IDExNC43IDU2LjUgNTYuNWM1LjEgNS4xIDEyIDUuMSAxNy4xIDBsNTYuNS01Ni41IDI2Mi0yNjJjNS4yLTMuNCA1LjItMTIgLjEtMTcuMXpNMTYzNC4xIDE2OS40bC0zNy43LTM3LjdjLTMuNC0zLjQtOC42LTMuNC0xMiAwbC0xNjkuNSAxNjkuNS03MC4yLTcxLjljLTMuNC0zLjQtOC42LTMuNC0xMiAwbC0zNy43IDM3LjdjLTMuNCAzLjQtMy40IDguNiAwIDEybDc3LjEgNzcuMSAzNy43IDM3LjdjMy40IDMuNCA4LjYgMy40IDEyIDBsMzcuNy0zNy43IDE3NC43LTE3Ni40YzEuNi0xLjcgMS42LTYuOS0uMS0xMC4zeiIvPjwvc3ZnPg==') no-repeat center center;
+    -ms-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    transition: all .3s ease;
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+}
+
+.woo-chatbot-wrap input[type=checkbox]:checked + label::after {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+/*ICON CSS*/
+
+.woo-chatbot-wrap ul.radio-list {
+    margin: 0;
+    padding: 0;
+}
+
+.woo-chatbot-wrap ul.radio-list li {
+    width: 15%;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+ul.radio-list li img, ul.radio-list li input {
+    display: inline-table;
+    vertical-align: middle;
+}
+
+ul.radio-list li input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul.radio-list li input[type=radio] {
+    background: #E3E4E4;
+}
+
+ul.radio-list li img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #c7dbec;
+    width: 65px;
+    display: block;
+    margin: 5px auto;
+}
+
+/*container style css after adding tab*/
+.form-container {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    background-color: #32373c;
+    border: 1px solid #cccccc;
+    border-radius: 5px;	
+}
+
+.qc-opt-description {
+    font-weight: normal;
+}
+
+.qc-opt-title-font {
+    font-weight: normal;
+    font-size: 14px !important;
+    padding-top: 5px;
+}
+
+.qc-opt-dcs-font {
+    font-size: 13px !important;
+}
+
+.input-sm {
+    width: 50px !important;
+}
+
+.thumbnail.theme_prev {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.ge-canvas {
+    padding: 0 15px;
+}
+
+.bargain-bot-wrapper{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px 50px 50px;
+    text-align: center;
+}
+.bargain-bot-wrapper img{
+    width: 150px;
+}
+
+.woowbot-notice{
+    margin:5px 0px 5px 0px !important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    margin-left: 0 !important;
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1300px !important;
+}}
+
+.notice-dismiss {
+    top: -10px !important;
+    right: -10px !important;
+}
+
+.woo-chatbot-tabs nav ul li {
+    border-bottom: 1px solid #4d565f !important;
+}
+div#top-section {
+    padding: 0 0 35px 0;
+}
+.qc_get_pro h2 a {
+    text-decoration: none;
+    background: #39424a;
+    color: #fff;
+    padding: 8px 16px;
+    display: table;
+    border: 1px solid #4a4a4a;
+}

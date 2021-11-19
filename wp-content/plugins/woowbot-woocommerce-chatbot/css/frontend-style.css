@@ -1,0 +1,694 @@
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+    url('../fonts/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/***************** woo chatbot quick ball End ******************/
+/*********************
+ball Selector
+**********************/
+@keyframes ballAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+
+.woo-chatbot-ball {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    /*border: 3px solid #1f8ceb;*/
+    float: right;
+    /*animation: ballAnimation 2s;*/
+    /*opacity: 0.3;*/
+    -webkit-transition: all 0.5s linear; /* Safari 3.2+, Chrome */
+    -moz-transition: all 0.5s linear; /* Firefox 4-15 */
+    -o-transition: all 0.5s linear; /* Opera 10.5-12.00 */
+    transition: all 0.5s linear; /* Firefox 16+, Opera 12.50+ */
+    cursor: pointer;
+    z-index: 9999999999;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=40, Direction=90, Color=#d4d4d4)";/*IE 8*/
+    -moz-box-shadow: 0px 0px 40px #d4d4d4;/*FF 3.5+*/
+    -webkit-box-shadow: 0px 0px 40px #d4d4d4;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: #767580 0px 4px 20px;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=40, Direction=90, Color=#d4d4d4); /*IE 5.5-7*/
+    overflow: hidden !important;
+
+}
+
+.woo-chatbot-ball:hover {
+    opacity: 1;
+}
+
+@keyframes ballAnimation2 {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(2.0);
+        opacity: 0.6;
+    }
+}
+
+.woo-chatbot-ball:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #182438;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    animation: ballAnimation2 2s 4 alternate;
+    -webkit-transition: all 0.2s linear; /* Safari 3.2+, Chrome */
+    -moz-transition: all 0.2s linear; /* Firefox 4-15 */
+    -o-transition: all 0.2s linear; /* Opera 10.5-12.00 */
+    transition: all 0.2s linear; /* Firefox 16+, Opera 12.50+ */
+}
+
+.woo-chatbot-ball:hover:after {
+    transform: scale(1.0);
+    opacity: 0.6;
+}
+
+.woo-chatbot-ball:before {
+    content: '';
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    /*background: rgba(5, 5, 5, 0.38);
+    */
+    left: -70px;
+    top: -70px;
+    display: none;
+    border-radius: 50%;
+}
+
+.woo-chatbot-ball:hover:before {
+    display: block;
+}
+
+/*********************
+ball content wrapper
+**********************/
+.woo-chatbot-ball-container {
+    font-family: "quicksandregular", "Helvetica Neue", Helvetica, Aria;
+    height: auto;
+    background: #ffffff;
+    width: 350px;
+    position: relative;
+    /*border: 1px solid #616060;*/
+    box-sizing: border-box;
+    z-index: 9999999999;
+   /* border-radius: 5px;*/
+   /* left: -24px;*/
+    /*bottom: 30px;*/
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    left: 0px;
+    bottom: 10px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .35);
+}
+
+/*.slimScrollDiv {*/
+/*padding-right: 5px !important;*/
+/*}*/
+
+.woo-chatbot-ball-container:after {
+   /* content: "";
+    position: absolute;
+    right: -1px;
+    bottom: -27px;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 30px solid #ffffff;*/
+
+}
+
+#woo-chatbot-icon-container {
+    position: fixed;
+    z-index: 999998;
+}
+
+/***************** woo chatbot quick ball End ******************/
+/******************************
+Woo Chat bot Message container
+*********************************/
+
+.woo-chatbot-admin {
+    background: #1f8ceb;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    padding: 10px 15px;
+    display: none;
+}
+
+.woo-chatbot-admin h3, .woo-chatbot-admin h4 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.woo-chatbot-admin h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.woo-chatbot-admin h4 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.woo-chatbot-ball-inner {
+    height: 400px;
+    position: relative;
+    padding: 15px;
+    /*background: url("../images/message-bg.png") no-repeat top center;*/
+}
+
+.woo-chatbot-comment-loader {
+    margin: 0 auto;
+    display: block;
+    margin-left:20%;
+}
+
+ul.woo-chatbot-messages-container {
+    padding: 0;
+    margin: 0;
+}
+
+ul.woo-chatbot-messages-container > li {
+    position: relative;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    list-style: none;
+    display: block;
+    clear: both;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+ul.woo-chatbot-messages-container > li > span {
+    padding: 10px;
+    max-width: 90%;
+    display: table;
+}
+
+ul.woo-chatbot-messages-container > li.woo-chat-user-msg span {
+    text-align: right;
+    float: right;
+}
+
+ul.woo-chatbot-messages-container > li.woo-chat-user-msg:after, ul.woo-chatbot-messages-container > li .woo-chatbot-featured-products:after {
+    clear: both;
+    display: block;
+    content: "";
+    height: 1px;
+}
+
+.woo-chat-user-msg span {
+    background-color: #eaf1f6;
+    color: #494949;
+    margin-left: 10%;
+    border-radius: 10px 10px 0 10px;
+}
+
+.woo-chatbot-msg span {
+    background-color: #1f8ceb;
+    color: #ffffff;
+    border-radius: 0 10px 10px 10px;
+}
+
+ul.woo-chatbot-messages-container li:first-child.woo-chatbot-msg span {
+    background: #fff;
+    color: #494949;
+    /*border-radius: 0 10px 10px 10px;*/
+}
+
+span.qcld-chatbot-product-category, span.qcld-chatbot-button {
+    display: block;
+    margin: 5px auto;
+    background: #f2f2f2;
+    border: 1px solid #eee;
+    padding: 12px 30px;
+    color: #494949;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#bot-bottom button {
+    display: block;
+}
+
+.woo-chatbot-featured-products {
+    clear: both;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.woo-chatbot-featured-products ul {
+    margin: 0;
+    padding: 0;
+}
+
+.woo-chatbot-featured-products ul li {
+    position: relative;
+    display: inline-block;
+    width: 46%;
+    float: left;
+    margin: 2%;
+    box-sizing: border-box;
+    padding: 2px;
+    background-color: #eee;
+    border-radius: 5px;
+    min-height: 126px;
+}
+
+.woo-chatbot-featured-products ul li img {
+    display: block;
+}
+
+.woo-chatbot-featured-products ul li .woo-chatbot-product-summary {
+    background: rgba(0, 0, 0, 0.51);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 999;
+    visibility: hidden;
+    font-size: 12px;
+}
+
+.woo-chatbot-featured-products ul li .woo-chatbot-product-summary {
+    visibility: visible;
+}
+
+.woo-chatbot-featured-products ul li:hover .woo-chatbot-product-summary {
+    visibility: visible;
+}
+
+.woo-chatbot-featured-products ul li .woo-chatbot-product-summary .woo-chatbot-product-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.woo-chatbot-featured-products ul li .woo-chatbot-product-summary .woo-chatbot-product-table .woo-chatbot-product-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.woo-chatbot-featured-products ul li .woo-chatbot-product-summary h3.woo-chatbot-product-title {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.woo-chatbot-featured-products ul li .woo-chatbot-product-summary h3.woo-chatbot-product-title a {
+    color: #ffffff;
+}
+
+.woo-chatbot-featured-products ul li .woo-chatbot-product-summary .price, .woo-chatbot-featured-products ul li .woo-chatbot-product-summary .price span, .woo-chatbot-featured-products ul li .woo-chatbot-product-summary .price ins, .woo-chatbot-featured-products ul li .woo-chatbot-product-summary .price del {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.woo-chatbot-editor-container {
+    background-color: #f2f6f9;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    padding: 6px 0 6px 15px;
+}
+
+.woo-chatbot-editor-container input {
+    display: inline-block;
+    border: none;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    background-color: transparent;
+    color: #565867;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.woo-chatbot-editor-container input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+.woo-chatbot-editor-container input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #565867;
+}
+
+.woo-chatbot-editor-container input::-moz-placeholder { /* Firefox 19+ */
+    color: #565867;
+}
+
+.woo-chatbot-editor-container input:-ms-input-placeholder { /* IE 10+ */
+    color: #565867;
+}
+
+.woo-chatbot-editor-container input:-moz-placeholder { /* Firefox 18- */
+    color: #565867;
+}
+
+.woo-chatbot-editor-container button {
+    display: inline-block;
+    height: 50px;
+    background: transparent url("../images/send-button.png") no-repeat center !important;
+    color: transparent !important;
+    width: 20%;
+    cursor: pointer;
+    margin: 0 0 0 -6px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.woo-chatbot-editor-container button:hover {
+    background: transparent url("../images/send-button.png") no-repeat center;
+}
+
+.woo-chatbot-editor-container button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent url("../images/send-button.png") no-repeat center;
+}
+/* Responsive part */
+/*@media (max-width: 400px) {
+    #woo-chatbot-icon-container {
+        right: 0px !important;
+        bottom: 0px !important;
+    }
+}*/
+#woo-chatbot-mobile-close {
+    display: block;
+    position: absolute;
+    right: 7px;
+    top: -13px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Arial";
+    line-height: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #7d8999;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.2s;
+    transform: translateY(20px);
+}
+@media screen and (max-width: 768px) {
+    .woo-chatbot-ball-container {
+        /*width: 100%;
+        left:0;
+        bottom:0;*/
+    }
+    .woo-chatbot-ball-container:after{
+        display: none;
+    }
+    .woo-chatbot-ball-container{}
+.woo-chatbot-ball-inner {
+    height: 60vh !important;
+}
+.woo-chatbot-ball-container {
+    margin: 0 0 0 20px;
+	bottom: 20px !important;
+}
+}
+@media screen and (max-width: 500px) {
+/*    .woo-chatbot-ball {
+        bottom: 20px;
+        right: 15px;
+    }
+
+    .woo-chatbot-ball-container {
+        right: 30px;
+        bottom: 30px;
+        width: 85vw;
+    }*/
+    /*#woo-chatbot-icon-container {
+        right: 0px !important;
+        bottom: 0px !important;
+    }*/
+
+}
+
+
+
+
+/******* bargain module Featured products *******/
+
+.woo-chatbot-products-bargain {
+    clear: both;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.woo-chatbot-products-bargain ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 0;
+}
+
+.woo-chatbot-products-bargain ul li {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.51);
+    height: 100px;
+}
+
+.woo-chatbot-products-bargain ul li:nth-child(2n+2) {
+/*    margin-left: 4%;
+*/}
+
+.woo-chatbot-products-bargain ul li img {
+    display: block;
+    max-width: 35% !important;
+    height: 96px;
+    box-shadow: none !important;
+    float: left;
+}
+
+.woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain {
+    width: 65%;
+    float: left;
+    padding: 2%;
+
+}
+
+.woo-chatbot-products-bargain ul li:hover .woo-chatbot-product-bargain {
+    visibility: visible;
+}
+
+.woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain .woo-chatbot-product-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain .woo-chatbot-product-table .woo-chatbot-product-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain h3.woo-chatbot-product-title {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain h3.woo-chatbot-product-title {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain .price, .woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain .price span, 
+.woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain .price ins, .woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain .price del {
+    background-color: transparent !important;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+/****************************************************
+ * Chatbot avatar
+ ****************************************************/
+
+ul.woo-chatbot-messages-container > li.woo-chat-user-msg .woo-chatbot-avatar {
+    right: 0;
+}
+
+ul.woo-chatbot-messages-container > li .woo-chatbot-avatar, .woo-chatbot-agent-profile .woo-chatbot-widget-avatar {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#woo-chatbot-messages-container .woo-chatbot-avatar img, .woo-chatbot-agent-profile .woo-chatbot-widget-avatar img {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+#woo-chatbot-shortcode-template-container img, #woo-chatbot-chat-container img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: none !important;
+}
+
+
+ul.woo-chatbot-messages-container > li.woo-chatbot-msg .woo-chatbot-avatar, .woo-chatbot-agent-profile .woo-chatbot-widget-avatar {
+    left: 0;
+}
+
+ul.woo-chatbot-messages-container > li .woo-chatbot-avatar, .woo-chatbot-agent-profile .woo-chatbot-widget-avatar {
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+ul.woo-chatbot-messages-container > li.woo-chat-user-msg .woo-chatbot-paragraph {
+    background-color: #eaf1f6;
+    color: #494949;
+    margin-left: 10%;
+    border-radius: 10px 10px 0 10px;
+}
+
+ul.woo-chatbot-messages-container > li.woo-chat-user-msg .woo-chatbot-paragraph {
+    text-align: right;
+    float: right;
+}
+
+ul.woo-chatbot-messages-container > li.woo-chat-user-msg {
+    padding-right: 50px;
+}
+
+ul.woo-chatbot-messages-container > li > .woo-chatbot-paragraph, .woo-chatbot-agent-profile .woo-chatbot-bubble {
+    padding: 8px 15px;
+    max-width: 90%;
+    box-shadow: 0 2px 8px #bfbfbf;
+    line-height: 150%;
+    display: table;
+    word-wrap: break-word;
+}
+
+ul.woo-chatbot-messages-container > li > .woo-chatbot-paragraph, .woo-chatbot-agent-profile .woo-chatbot-bubble {
+    padding: 8px 15px;
+    max-width: 90%;
+    box-shadow: 0 2px 8px #bfbfbf;
+    line-height: 150%;
+    display: table;
+    word-wrap: break-word;
+}
+
+ul.woo-chatbot-messages-container > li.woo-chatbot-msg {
+    padding-left: 50px;
+}
+
+
+ul.woo-chatbot-messages-container  li.woo-chatbot-msg .qcld-modal-bargin-confirm-btn-yes, 
+ul.woo-chatbot-messages-container  li.woo-chatbot-msg .qcld-modal-bargin-confirm-btn-no, 
+ul.woo-chatbot-messages-container  li.woo-chatbot-msg .qcld-modal-bargin-confirm-btn-checkout, 
+ul.woo-chatbot-messages-container  li.woo-chatbot-msg .qcld-modal-bargin-confirm-add-to-cart, 
+ul.woo-chatbot-messages-container  li.woo-chatbot-msg .qcld-chatbot-bargin-confirm-btn, 
+ul.woo-chatbot-messages-container  li.woo-chatbot-msg .qcld-modal-bargin-confirm-add-to-cart, 
+ul.woo-chatbot-messages-container  li.woo-chatbot-msg .qcld-chatbot-bargin-confirm-btn, 
+ul.woo-chatbot-messages-container  li.woo-chatbot-msg .qcld-modal-bargin-add-to-cart {
+    padding: 5px 15px;
+}
+
+.woo-chatbot-products-bargain ul li .woo-chatbot-product-bargain h3.woo-chatbot-product-title {
+    max-height: 65px;
+    overflow: hidden;
+}
+
+.woo-chatbot-featured-products ul li .woo-chatbot-product-summary h3.woo-chatbot-product-title {
+    max-height: 80px;
+    overflow: hidden;
+}
+
+
+@keyframes chatOpenAnim{
+        to{
+            opacity: 1;
+        
+        }
+        from{
+            opacity:0;
+        
+        }
+}
+@keyframes chatOpenAnim2{
+        to{
+            opacity: 1;
+        
+        }
+        from{
+            opacity:0;
+            
+        }
+}
+.woobot_chatopen_iconanimation img{
+    animation: chatOpenAnim 0.5s;
+}
+.woobot_chatclose_iconanimation img{
+    animation: chatOpenAnim2 0.5s;  
+}
+.woo-chatbot-ball-container {
+    border-radius: 5px !important;
+}
+.woo-chatbot-comment-loader{
+	background:#fff !important;
+	padding:5px;
+	 border-radius: 5px !important;
+}
+.slimScrollDiv {
+    border-radius: 5px 5px 0 0 !important;
+}
+.woo-chatbot-ball-inner {
+    height: 60vh !important;
+}
+

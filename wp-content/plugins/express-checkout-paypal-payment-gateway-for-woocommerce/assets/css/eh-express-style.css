@@ -1,0 +1,74 @@
+.eh_payapal_express_checkout_button
+{
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.eh_paypal_express_link
+{
+    text-decoration:none !important;
+}
+.eh_paypal_express_image
+{
+    padding:5px;
+    display: inline-flex;
+}
+.eh_paypal_express_woo_style
+{
+    margin:5px !important;
+}
+.eh_paypal_express_description
+{
+    opacity: 0.7;
+    padding-bottom: 1em;
+    color: grey;
+}
+.eh_paypal_express_description_or
+{
+    opacity: 0.7;
+    padding-bottom: 1em;
+    color: black;
+}
+.eh_pe_checkout_fields_hide
+{
+    display: none !important;
+}
+.eh_pe_checkout_fields_fill
+{
+    width:auto !important;
+    float:none !important;
+}
+.edit_eh_pe_address
+{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.eh_pe_address_text
+{
+    float:left;
+}
+.eh_pe_address_table,tr,td
+{
+    border: 0;
+    border-collapse:collapse;
+}
+.heading_address_field
+{
+    color:gray;
+    padding-bottom: 5px;
+    opacity: 0.7;
+}
+.eh_paypal_express_seller_policy
+{
+    background:#ebe9eb;
+    border-radius:5px;
+}
+.eh_paypal_express_seller_policy_content
+{
+    padding:1em !important;
+    text-align: center;
+}
+#payment .payment_methods > li .payment_box, #payment .place-order {
+    width: 100%;
+}

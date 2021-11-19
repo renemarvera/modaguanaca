@@ -1,0 +1,813 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayPal Express Checkout Payment Gateway for WooCommerce "
+"( Basic )\n"
+"POT-Creation-Date: 2021-02-26 08:41+0530\n"
+"PO-Revision-Date: 2021-02-26 08:42+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: express-checkout-paypal-payment-gateway-for-woocommerce."
+"php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:33
+msgid ""
+"Oops! PREMIUM Version of this Plugin Installed. Please uninstall the PREMIUM "
+"Version before activating BASIC"
+msgstr ""
+"hoppsan! PREMIUM-versionen av detta plugin installerad. Avinstallera PREMIUM-"
+"versionen innan du aktiverar BASIC"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:54
+msgid "Settings"
+msgstr "Inställningar"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:55
+msgid "Premium Upgrade"
+msgstr "Premium-uppgradering"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:56
+msgid "Support"
+msgstr "Stöd"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:57
+msgid "Review"
+msgstr "Recension"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:158
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Vänligen meddela oss varför du inaktiverar om du har en stund:"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:170
+msgid "I rather wouldn't say"
+msgstr "Jag vill inte delge den informationen"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:171
+msgid "Submit & Deactivate"
+msgstr "Skicka och inaktivera"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:172
+msgid "Cancel"
+msgstr "Annullera"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:251
+msgid "Deactivate and leave a review"
+msgstr "Inaktivera och lämna en recension"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:299
+msgid "Used it successfully. Don't need anymore."
+msgstr "Används framgångsrikt. Behöver inte längre."
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:301
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "Har använt det framgångsrikt men är inte i behov av det längre"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:305
+msgid "I couldn't understand how to make it work"
+msgstr "Jag kunde inte förstå hur man får det att fungera"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:307
+msgid "Would you like us to assist you?"
+msgstr "Vill du att vi ska hjälpa dig?"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:311
+msgid "I found a better plugin"
+msgstr "Jag hittade ett bättre tillägg"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:313
+msgid "Which plugin?"
+msgstr "Vilket plugin?"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:317
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Tillägget är bra, men jag behöver en specifik funktion som du inte stöder"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:319
+msgid "Could you tell us more about that feature?"
+msgstr "Kan du berätta mer om den funktionen?"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:323
+msgid "The plugin is not working"
+msgstr "Tillägget fungerar inte"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:325
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Kan du berätta lite mer om vad som inte fungerar?"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:329
+msgid "It's not what I was looking for"
+msgstr "Det är inte det jag letade efter"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:331
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:343
+msgid "Could you tell us a bit more?"
+msgstr "Kan du berätta lite mer för oss?"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:335
+msgid "The plugin didn't work as expected"
+msgstr "Tillägget fungerade inte som förväntat"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:337
+msgid "What did you expect?"
+msgstr "Vad förväntade du dig?"
+
+#: express-checkout-paypal-payment-gateway-for-woocommerce.php:341
+msgid "Other"
+msgstr "Andra"
+
+#: includes/class-paypal-express-api.php:13
+#: includes/eh-paypal-express-settings-page.php:86
+msgid "PayPal Express"
+msgstr "PayPal Express"
+
+#: includes/class-paypal-express-api.php:14
+msgid "Use PayPal Express Payment to Checkout faster."
+msgstr "Använd PayPal Express-betalning för att checka ut snabbare."
+
+#: includes/class-paypal-express-api.php:51
+msgid "Place Order"
+msgstr "Placera beställning"
+
+#: includes/class-paypal-express-api.php:51
+msgid "Proceed to PayPal"
+msgstr "Fortsätt till PayPal"
+
+#: includes/class-paypal-express-api.php:172
+#: includes/class-paypal-express-api.php:186
+#: includes/class-paypal-express-api.php:439
+msgid "Oops !"
+msgstr "Hoppsan !!!"
+
+#: includes/class-paypal-express-api.php:173
+#: includes/class-paypal-express-api.php:440
+msgid "Page Not Found"
+msgstr "Sidan hittades inte"
+
+#: includes/class-paypal-express-api.php:174
+#: includes/class-paypal-express-api.php:188
+#: includes/class-paypal-express-api.php:441
+msgid "Back"
+msgstr "Tillbaka"
+
+#: includes/class-paypal-express-api.php:187
+msgid "Your Cart is Empty"
+msgstr "Din varukorg är tom"
+
+#: includes/class-paypal-express-api.php:199
+#: includes/class-paypal-express-api.php:432
+msgid "No shipping method has been selected."
+msgstr "Ingen fraktmetod har valts."
+
+#: includes/class-paypal-express-api.php:302
+msgid " error - "
+msgstr "Fel."
+
+#: includes/class-paypal-express-api.php:306
+msgid "An error occured.Please refresh and try again"
+msgstr "Ett fel uppstod. Uppdatera och försök igen"
+
+#: includes/class-paypal-express-api.php:313
+#: includes/class-paypal-express-api.php:416
+#: includes/class-paypal-express-api.php:618
+msgid "Redirect to PayPal failed. Please try again later."
+msgstr "Omdirigering till PayPal misslyckades. Vänligen försök igen senare."
+
+#: includes/class-paypal-express-api.php:349
+#: includes/class-paypal-express-api.php:613
+#: includes/class-paypal-express-api.php:912
+msgid ""
+"An error occurred, We were unable to process your order, please try again."
+msgstr "Ett fel uppstod. Vi kunde inte behandla din beställning, försök igen."
+
+#: includes/class-paypal-express-api.php:545
+#: includes/class-paypal-express-api.php:591
+#: includes/class-paypal-express-api.php:605
+msgid "Payment Status : "
+msgstr "Betalningsstatus :"
+
+#: includes/class-paypal-express-api.php:554
+msgid ""
+"Address: The payment is pending because your customer did not include a "
+"confirmed shipping address and your Payment Receiving Preferences is set "
+"such that you want to manually accept or deny each of these payments. To "
+"change your preference, go to the Preferences section of your Profile."
+msgstr ""
+"Adress: Betalningen väntar eftersom din kund inte inkluderade en bekräftad "
+"leveransadress och dina betalningsmottagningsinställningar är inställda så "
+"att du vill acceptera eller neka var och en av dessa betalningar manuellt. "
+"För att ändra dina preferenser, gå till avsnittet Inställningar i din profil."
+
+#: includes/class-paypal-express-api.php:557
+msgid ""
+"Authorization: The payment is pending because it has been authorized but not "
+"settled. You must capture the funds first."
+msgstr ""
+"Auktorisering: Betalningen väntar på grund av att den har godkänts men inte "
+"reglerats. Du måste fånga medlen först."
+
+#: includes/class-paypal-express-api.php:560
+msgid ""
+"eCheck: The payment is pending because it was made by an eCheck that has not "
+"yet cleared."
+msgstr ""
+"eCheck: Betalningen väntar eftersom den gjordes av en eCheck som ännu inte "
+"har rensats."
+
+#: includes/class-paypal-express-api.php:563
+msgid ""
+"intl: The payment is pending because you hold a non-U.S. account and do not "
+"have a withdrawal mechanism. You must manually accept or deny this payment "
+"from your Account Overview."
+msgstr ""
+"intl: Betalningen pågår eftersom du har ett icke-amerikansk konto och inte "
+"har en uttagsmekanism. Du måste acceptera eller neka denna betalning "
+"manuellt från din kontoöversikt."
+
+#: includes/class-paypal-express-api.php:567
+msgid ""
+"Multi-currency: You do not have a balance in the currency sent, and you do "
+"not have your Payment Receiving Preferences set to automatically convert and "
+"accept this payment. You must manually accept or deny this payment."
+msgstr ""
+"Flervaluta: Du har inget saldo i den skickade valutan och du har inte "
+"inställt dina betalningsmottagningsinställningar för att automatiskt "
+"konvertera och acceptera den här betalningen. Du måste acceptera eller neka "
+"denna betalning manuellt."
+
+#: includes/class-paypal-express-api.php:570
+msgid ""
+"Order: The payment is pending because it is part of an order that has been "
+"authorized but not settled."
+msgstr ""
+"Beställning: Betalningen väntar eftersom den är en del av en beställning som "
+"har godkänts men inte avvecklats."
+
+#: includes/class-paypal-express-api.php:573
+msgid ""
+"Payment Review: The payment is pending while it is being reviewed by PayPal "
+"for risk."
+msgstr ""
+"Betalningsgranskning: Betalningen väntar medan den granskas av PayPal för "
+"risk."
+
+#: includes/class-paypal-express-api.php:576
+msgid ""
+"Unilateral: The payment is pending because it was made to an email address "
+"that is not yet registered or confirmed."
+msgstr ""
+"Ensidig: Betalningen väntar på grund av att den gjordes till en e-postadress "
+"som ännu inte är registrerad eller bekräftad."
+
+#: includes/class-paypal-express-api.php:579
+msgid ""
+"Verify: The payment is pending because you are not yet verified. You must "
+"verify your account before you can accept this payment."
+msgstr ""
+"Verifiera: Betalningen väntar eftersom du ännu inte har verifierats. Du "
+"måste verifiera ditt konto innan du kan acceptera den här betalningen."
+
+#: includes/class-paypal-express-api.php:582
+msgid "Other: For more information, contact PayPal customer service."
+msgstr "Övrigt: För mer information, kontakta PayPal kundtjänst."
+
+#: includes/class-paypal-express-api.php:586
+msgid "No pending reason provided."
+msgstr "Ingen väntande anledning anges."
+
+#: includes/class-paypal-express-api.php:631
+#: includes/class-paypal-express-hook.php:28
+msgid ""
+"You have cancelled PayPal Express Checkout. Please try to process your order "
+"again."
+msgstr ""
+"Du har annullerat PayPal Express Checkout. Försök att behandla din "
+"beställning igen."
+
+#: includes/class-paypal-express-api.php:674
+msgid "Edit Details"
+msgstr "Redigera info"
+
+#: includes/class-paypal-express-api.php:680
+msgid "First Name"
+msgstr "Förnamn"
+
+#: includes/class-paypal-express-api.php:685
+msgid "Last Name"
+msgstr "Efternamn"
+
+#: includes/class-paypal-express-api.php:692
+msgid "Company Name"
+msgstr "Företagsnamn"
+
+#: includes/class-paypal-express-api.php:699
+msgid "Email Address"
+msgstr "E-postadress"
+
+#: includes/class-paypal-express-api.php:706
+msgid "Country"
+msgstr "Land"
+
+#: includes/class-paypal-express-api.php:713
+msgid "Address"
+msgstr "Adress"
+
+#: includes/class-paypal-express-api.php:726
+msgid "Town / City"
+msgstr "Ort"
+
+#: includes/class-paypal-express-api.php:733
+msgid "State"
+msgstr "Län"
+
+#: includes/class-paypal-express-api.php:738
+msgid "Postcode / ZIP"
+msgstr "Postnummer"
+
+#: includes/class-paypal-express-api.php:824
+#: includes/eh-paypal-express-settings-page.php:221
+msgid "Seller Policy"
+msgstr "Säljarpolicy"
+
+#: includes/class-paypal-express-api.php:845
+msgid "Cancel Order"
+msgstr "Avbryt  Beställning"
+
+#: includes/class-paypal-express-hook.php:74
+msgid "or"
+msgstr "eller"
+
+#: includes/class-paypal-express-hook.php:75
+msgid "Check out with PayPal"
+msgstr "Betala med PayPal"
+
+#: includes/class-paypal-express-hook.php:78
+msgid "Check out with PayPal Credit"
+msgstr "Kolla in med PayPal-kredit"
+
+#: includes/class-paypal-express-review-request.php:53
+#, php-format
+msgid ""
+"Hey, we at %sWebToffee%s would like to thank you for using our plugin. We "
+"would really appreciate if you could take a moment to drop a quick review "
+"that will inspire us to keep going."
+msgstr ""
+"Hej, vi på %sWebToffee% vill tacka dig för att du använder vårt plugin. Vi "
+"skulle verkligen uppskatta om du kunde ta en stund att släppa en snabb "
+"recension som kommer att inspirera oss att fortsätta."
+
+#: includes/class-paypal-express-review-request.php:56
+msgid "Remind me later"
+msgstr "Påminn mig senare"
+
+#: includes/class-paypal-express-review-request.php:57
+msgid "Not interested"
+msgstr "Inte intresserad"
+
+#: includes/class-paypal-express-review-request.php:58
+msgid "Review now"
+msgstr "Granska nu"
+
+#: includes/eh-paypal-express-settings-page.php:14
+msgid "PayPal Payment Gateway"
+msgstr "PayPal utbetalninggateway"
+
+#: includes/eh-paypal-express-settings-page.php:15
+#: includes/eh-paypal-express-settings-page.php:87
+#: includes/eh-paypal-express-settings-page.php:96
+#: includes/eh-paypal-express-settings-page.php:215
+#: includes/eh-paypal-express-settings-page.php:235
+msgid "Enable"
+msgstr "Aktivera"
+
+#: includes/eh-paypal-express-settings-page.php:17
+msgid "This option will enable PayPal payment method in checkout page."
+msgstr "Detta alternativ aktiverar PayPal-betalningsmetod på kassasidan."
+
+#: includes/eh-paypal-express-settings-page.php:22
+msgid "Title"
+msgstr "Titel"
+
+#: includes/eh-paypal-express-settings-page.php:24
+msgid "Enter the title of the checkout which the user can see."
+msgstr "Ange titeln på kassan som användaren kan se."
+
+#: includes/eh-paypal-express-settings-page.php:25
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/eh-paypal-express-settings-page.php:29
+msgid "Regular Description"
+msgstr "Vanlig beskrivning"
+
+#: includes/eh-paypal-express-settings-page.php:32
+msgid "Description which the user sees during checkout."
+msgstr "Beskrivning som användaren ser under kassan."
+
+#: includes/eh-paypal-express-settings-page.php:33
+msgid "Secure payment via PayPal."
+msgstr "Säker betalning via PayPal."
+
+#: includes/eh-paypal-express-settings-page.php:37
+msgid ""
+"<span style=\"text-decoration: underline;color:brown;\">PayPal "
+"Credentials<span>"
+msgstr ""
+"<span style=\"text-decoration: underline;color:brown;\">PayPal referenser</"
+"span>"
+
+#: includes/eh-paypal-express-settings-page.php:41
+msgid "Environment"
+msgstr "Miljö"
+
+#: includes/eh-paypal-express-settings-page.php:45
+msgid "Sandbox Mode"
+msgstr "Sandlådeläge"
+
+#: includes/eh-paypal-express-settings-page.php:46
+msgid "Live Mode"
+msgstr "Live-läge"
+
+#: includes/eh-paypal-express-settings-page.php:48
+msgid "<div id=\"environment_alert_desc\"></div>"
+msgstr "<div id=\"environment_alert_desc\"></div>"
+
+#: includes/eh-paypal-express-settings-page.php:52
+msgid "Sandbox API Username"
+msgstr "Användarnamn för sandbox-API"
+
+#: includes/eh-paypal-express-settings-page.php:57
+msgid "Sandbox API Password"
+msgstr "Lösenord för sandbox-API"
+
+#: includes/eh-paypal-express-settings-page.php:62
+msgid "Sandbox API Signature"
+msgstr "Signatur för sandbox-API"
+
+#: includes/eh-paypal-express-settings-page.php:67
+msgid "Live API Username"
+msgstr "Live API-användarnamn"
+
+#: includes/eh-paypal-express-settings-page.php:72
+msgid "Live API Password"
+msgstr "Live API-lösenord"
+
+#: includes/eh-paypal-express-settings-page.php:77
+msgid "Live API Signature"
+msgstr "Live API-signatur"
+
+#: includes/eh-paypal-express-settings-page.php:82
+msgid ""
+"<span style=\"text-decoration: underline;color:brown;\">PayPal Express "
+"Checkout<span>"
+msgstr ""
+"<span style=\"text-decoration: underline;color:brown;\">PayPal Express "
+"Checkout</span>"
+
+#: includes/eh-paypal-express-settings-page.php:89
+msgid "Enable PayPal Express Gateway option."
+msgstr "Aktivera PayPal Express Gateway-alternativet."
+
+#: includes/eh-paypal-express-settings-page.php:94
+msgid "Credit Card Checkout"
+msgstr "Kreditkortskassa"
+
+#: includes/eh-paypal-express-settings-page.php:98
+msgid ""
+"Check to allow customer to pay using their credit card instead of PayPal "
+"Account."
+msgstr ""
+"Markera om kunden ska kunna betala med sitt kreditkort istället för PayPal-"
+"konto."
+
+#: includes/eh-paypal-express-settings-page.php:102
+msgid "Button Size"
+msgstr "Knappstorlek"
+
+#: includes/eh-paypal-express-settings-page.php:105
+msgid "Select the Button size that fits your shop theme."
+msgstr "Välj knappstorlek som passar ditt butikstema."
+
+#: includes/eh-paypal-express-settings-page.php:109
+msgid "Small"
+msgstr "Liten"
+
+#: includes/eh-paypal-express-settings-page.php:110
+msgid "Medium"
+msgstr "Medium"
+
+#: includes/eh-paypal-express-settings-page.php:111
+msgid "Large"
+msgstr "Stor"
+
+#: includes/eh-paypal-express-settings-page.php:115
+msgid "Express Description"
+msgstr "Expressbeskrivning"
+
+#: includes/eh-paypal-express-settings-page.php:118
+msgid "Description which the user sees during PayPal Express."
+msgstr "Beskrivning som användaren ser under PayPal Express."
+
+#: includes/eh-paypal-express-settings-page.php:119
+msgid "Reduce multiple click by clicking on PayPal"
+msgstr "Minska flera klick genom att klicka på PayPal"
+
+#: includes/eh-paypal-express-settings-page.php:123
+msgid "Cart Page Checkout"
+msgstr "Varukorgssida Kassa"
+
+#: includes/eh-paypal-express-settings-page.php:125
+msgid "Enable Express"
+msgstr "Aktivera Express"
+
+#: includes/eh-paypal-express-settings-page.php:127
+msgid "Allows customers to checkout using PayPal directly from a cart page."
+msgstr "Tillåter kunder att checka ut med PayPal direkt från en kundvagnssida."
+
+#: includes/eh-paypal-express-settings-page.php:131
+msgid ""
+"<span style=\"text-decoration: underline;color:brown;\">PayPal "
+"Abilities<span>"
+msgstr ""
+"<span style=\"text-decoration: underline;color:brown;\">PayPal-förmågor</"
+"span>"
+
+#: includes/eh-paypal-express-settings-page.php:135
+msgid "Business Name"
+msgstr "Företag"
+
+#: includes/eh-paypal-express-settings-page.php:137
+msgid "Enter the Business name to display in PayPal Checkout Page."
+msgstr "Ange det företagsnamn som ska visas på PayPal Checkout-sidan."
+
+#: includes/eh-paypal-express-settings-page.php:142
+msgid "Payment Action"
+msgstr "Betalningsågärd"
+
+#: includes/eh-paypal-express-settings-page.php:146
+msgid "Sale"
+msgstr "Rea"
+
+#: includes/eh-paypal-express-settings-page.php:148
+msgid "Select whether you want to capture the payment or not."
+msgstr "Välj om du vill ta emot betalningen eller inte."
+
+#: includes/eh-paypal-express-settings-page.php:153
+msgid "Override Addresses "
+msgstr "Åsidosätt adresser"
+
+#: includes/eh-paypal-express-settings-page.php:155
+msgid "Do you let buyers override their PayPal addresses? "
+msgstr "Låter du köpare åsidosätta sina PayPal-adresser?"
+
+#: includes/eh-paypal-express-settings-page.php:157
+msgid ""
+"Check to allow buyers override their PayPal addresses. - <i>Enabling this "
+"will affect express checkout and PayPal will strictly verify the address</i>"
+msgstr ""
+"Markera för att tillåta köpare att åsidosätta sina PayPal-adresser. - <i>Om "
+"du aktiverar detta kommer det att påverka expresskassan och PayPal kommer "
+"strikt att verifiera adressen</i>"
+
+#: includes/eh-paypal-express-settings-page.php:161
+msgid "Shipping details"
+msgstr "Leveransdetaljer"
+
+#: includes/eh-paypal-express-settings-page.php:163
+msgid "Send shipping details to PayPal instead of billing."
+msgstr "Skicka leveransadress till PayPal istället för faktureringsadress."
+
+#: includes/eh-paypal-express-settings-page.php:165
+msgid ""
+"PayPal allows us to send only one among shipping/billing address. We advise "
+"you to enable this option to ensure PayPal Seller protection thereby to send "
+"shipping details to PayPal"
+msgstr ""
+"PayPal tillåter oss att bara skicka en mellan leverans- / "
+"faktureringsadress. Vi rekommenderar att du aktiverar det här alternativet "
+"för att säkerställa PayPal-säljarskydd och därmed skicka leveransinformation "
+"till PayPal"
+
+#: includes/eh-paypal-express-settings-page.php:169
+msgid "PayPal Locale"
+msgstr "PayPal-språk"
+
+#: includes/eh-paypal-express-settings-page.php:171
+msgid "Use Store Locale"
+msgstr "Använd Store Locale"
+
+#: includes/eh-paypal-express-settings-page.php:173
+msgid "Check to set your store locale code to PayPal page locale."
+msgstr "Markera för att ställa in din butikskod till PayPal-sidlokal."
+
+#: includes/eh-paypal-express-settings-page.php:177
+msgid "Landing Page"
+msgstr "Landningssida"
+
+#: includes/eh-paypal-express-settings-page.php:181
+msgid "Login"
+msgstr "Logga in"
+
+#: includes/eh-paypal-express-settings-page.php:182
+msgid "Billing"
+msgstr "Fakturering"
+
+#: includes/eh-paypal-express-settings-page.php:184
+msgid "PayPal Page which is used to display as default."
+msgstr "PayPal-sida som används för att visas som standard."
+
+#: includes/eh-paypal-express-settings-page.php:189
+msgid "Customer Service Number"
+msgstr "Kundtjänstnummer"
+
+#: includes/eh-paypal-express-settings-page.php:191
+msgid ""
+"Enter the customer service number which will be displayed in PayPal Review "
+"Page."
+msgstr "Ange kundservicenumret som kommer att visas på PayPal granskningssida."
+
+#: includes/eh-paypal-express-settings-page.php:197
+msgid "PayPal Checkout Logo"
+msgstr "PayPal Checkout-logotyp"
+
+#: includes/eh-paypal-express-settings-page.php:199
+msgid ""
+"Enter URL of the image to be displayed as logo in PayPal Checkout Page. "
+"Image URL should be of SSL Host URL. Use <a href=\"http://www.sslpic.com\" "
+"targer=\"_blank\"> SSL Host</a>."
+msgstr ""
+"Ange URL för bilden som ska visas som logotyp på PayPal Checkout-sidan. Bild-"
+"URL måste ha SSL-värd-URL. Använd <a href=\"http://www.sslpic.com\" targer="
+"\"_blank\">SSL-värd</a> ."
+
+#: includes/eh-paypal-express-settings-page.php:203
+msgid "PayPal Checkout Banner"
+msgstr "PayPal Checkout Banner"
+
+#: includes/eh-paypal-express-settings-page.php:205
+msgid ""
+"Enter URL of the image to be displayed as banner in PayPal Checkout Page. "
+"Image URL should be of SSL Host URL. Use <a href=\"http://www.sslpic.com\" "
+"targer=\"_blank\"> SSL Host</a>."
+msgstr ""
+"Ange URL för bilden som ska visas som banner på PayPal Checkout-sidan. Bild-"
+"URL måste ha SSL-värd-URL. Använd <a href=\"http://www.sslpic.com\" targer="
+"\"_blank\">SSL-värd</a> ."
+
+#: includes/eh-paypal-express-settings-page.php:209
+msgid ""
+"<span style=\"text-decoration: underline;color:brown;\">Review Page<span>"
+msgstr ""
+"<span style=\"text-decoration: underline;color:brown;\">Granska sidan</span>"
+
+#: includes/eh-paypal-express-settings-page.php:213
+msgid "Skip Review Page"
+msgstr "Hoppa över granskningssidan"
+
+#: includes/eh-paypal-express-settings-page.php:217
+msgid "Check to skip the review page for the customer to complete order."
+msgstr ""
+"Markera för att hoppa över granskningssidan så att kunden kan slutföra "
+"beställningen."
+
+#: includes/eh-paypal-express-settings-page.php:224
+msgid ""
+"Enter the seller protection policy or customized text which will be "
+"displayed in order review page."
+msgstr ""
+"Ange säljarskyddspolicyn eller anpassad text som kommer att visas på "
+"beställningssidan."
+
+#: includes/eh-paypal-express-settings-page.php:225
+msgid "You are Protected by "
+msgstr "Du skyddas av"
+
+#: includes/eh-paypal-express-settings-page.php:229
+msgid ""
+"<span style=\"text-decoration: underline;color:brown;\">Developer "
+"Settings<span>"
+msgstr ""
+"<span style=\"text-decoration: underline;color:brown;"
+"\">Utvecklarinställningar</span>"
+
+#: includes/eh-paypal-express-settings-page.php:231
+msgid "Enable Logging to save PayPal payment logs into log file. <a href=\""
+msgstr ""
+"Aktivera loggning för att spara PayPal-betalningsloggar i loggfilen. <a href "
+"= \""
+
+#: includes/eh-paypal-express-settings-page.php:234
+msgid "Logging"
+msgstr "Loggning"
+
+#: includes/eh-paypal-express-settings-page.php:237
+msgid "<span style=\"color:green\">Log File</span>: "
+msgstr "<span style=\"color:green\">Loggfil</span> :"
+
+#: includes/eh-paypal-express-settings-page.php:241
+msgid "Override IPN URL"
+msgstr "Åsidosätt IPN-URL"
+
+#: includes/eh-paypal-express-settings-page.php:243
+msgid "Enter override IPN URL to capture PayPal IPN Response."
+msgstr "Ange åsidosätt IPN-URL för att fånga PayPal IPN-svar."
+
+#: includes/market.php:71
+msgid "Your Business is precious. Go Premium!"
+msgstr "Ditt företag är värdefullt. Gå Premium!"
+
+#: includes/market.php:72
+msgid ""
+"Add Express PayPal Checkout Option on Product Page, Checkout page and Mini-"
+"cart for Faster Checkout."
+msgstr ""
+"Lägg till Express PayPal-utcheckningsalternativ på produktsidan, "
+"utcheckningssidan och minivagn för snabbare utcheckning."
+
+#: includes/market.php:73
+msgid "Capture the authorized payment later."
+msgstr "Fånga den auktoriserade betalningen senare."
+
+#: includes/market.php:74
+msgid ""
+"Partial and Full Refund the order amount directly from Order Admin Page."
+msgstr ""
+"Delvis och fullständig återbetalning av orderbeloppet direkt från "
+"orderadministratörssidan."
+
+#: includes/market.php:75
+msgid "Lots of Customization Options like Button Style, Position, Etc."
+msgstr "Massor av anpassningsalternativ som knappstil, position, etc."
+
+#: includes/market.php:76
+msgid "Add Invoice Prefix to identify Store order."
+msgstr "Lägg till fakturaprefix för att identifiera butiksorder."
+
+#: includes/market.php:77
+msgid ""
+"Option to enable In-Context checkout, to keep customers inside your store "
+"while checkout process."
+msgstr ""
+"Alternativ för att aktivera In-Context-kassan, för att hålla kunderna i din "
+"butik under kassan."
+
+#: includes/market.php:78
+msgid "Supports WooCommerce Subscriptions."
+msgstr "Stöder WooCommerce-prenumerationer"
+
+#: includes/market.php:79
+msgid "Shortcode support for Paypal Express button."
+msgstr "Kortkodsstöd för Paypal Express-knappen."
+
+#: includes/market.php:80
+msgid "Timely compatibility updates and bug fixes."
+msgstr "Uppdateringar och felkorrigeringar i rätt tid"
+
+#: includes/market.php:81
+msgid "Premium support!"
+msgstr "Premium support!"
+
+#: includes/market.php:86
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#. Plugin Name of the plugin/theme
+msgid "PayPal Express Checkout Payment Gateway for WooCommerce ( Basic )"
+msgstr "PayPal Express Checkout Payment Gateway för WooCommerce (Basic)"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://wordpress.org/plugins/express-checkout-paypal-payment-gateway-for-"
+"woocommerce/"
+msgstr ""
+"https://wordpress.org/plugins/express-checkout-paypal-payment-gateway-for-"
+"woocommerce/"
+
+#. Description of the plugin/theme
+msgid "Simplify your Store's checkout Process using PayPal Express Checkout."
+msgstr "Förenkla din butiks kassaprocess med PayPal Express Checkout."
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin/theme
+msgid ""
+"https://www.webtoffee.com/product/paypal-express-checkout-gateway-for-"
+"woocommerce/"
+msgstr ""
+"https://www.webtoffee.com/product/paypal-express-checkout-gateway-for-"
+"woocommerce/"

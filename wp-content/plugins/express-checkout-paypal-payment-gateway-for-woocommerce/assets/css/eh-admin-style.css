@@ -1,0 +1,44 @@
+
+.eh_wt_info_div {
+    background: #d9edf7;
+    border: solid 1px #bce8f1;
+    padding-left: 11px;
+    width: 68%;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.eh_wt_notice_bar_style{
+    margin-top: 0px; 
+    margin-left: 23px; 
+    list-style: disc;
+
+}
+input.eh_paypal_mode:checked::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #1e8cbe;
+    top: 6px;
+    left: 50%;
+    border-radius: 50%;
+} 
+input.eh_paypal_mode{ 
+    box-shadow: none;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    position: relative;
+}
+.smart_button_alert {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    padding: 0.75rem 1.25rem;
+    width: 86%;
+    margin-top: .6em;
+}
+.eh_paypal_mode_desc{
+    width: 63%;
+    color: #646970
+}

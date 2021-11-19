@@ -1,0 +1,253 @@
+# Copyright (C) 2018 QuantumCloud
+msgid ""
+msgstr ""
+"Project-Id-Version: WooWBot WooCommerce Chatbot\n"
+"POT-Creation-Date: 2018-02-01 14:51+0600\n"
+"PO-Revision-Date: 2018-02-01 14:35+0600\n"
+"Last-Translator: \n"
+"Language-Team: QuantumCloud, Dhaka Bangladesh, http://www.quantumcloud.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:22
+msgid "Conversations"
+msgstr ""
+
+#: functions.php:23
+msgid "with"
+msgstr ""
+
+#: functions.php:32
+msgid "Send a message."
+msgstr ""
+
+#: functions.php:34
+msgid "send"
+msgstr ""
+
+#: qcld-woowbot.php:96 qcld-woowbot.php:97
+msgid "WoowBot"
+msgstr ""
+
+#: qcld-woowbot.php:209
+msgid "WoowBot Control Panel"
+msgstr ""
+
+#: qcld-woowbot.php:211
+msgid "Get The Professional Version"
+msgstr ""
+
+#: qcld-woowbot.php:212
+msgid "WoowBot is a project by Web Design Company QuantumCloud"
+msgstr ""
+
+#: qcld-woowbot.php:218
+msgid "GENERAL SETTINGS"
+msgstr ""
+
+#: qcld-woowbot.php:220
+msgid "WoowBot ICONS"
+msgstr ""
+
+#: qcld-woowbot.php:221
+msgid "LANGUAGE CENTER"
+msgstr ""
+
+#: qcld-woowbot.php:222
+msgid "Custom CSS"
+msgstr ""
+
+#: qcld-woowbot.php:231
+msgid "Disable WoowBot"
+msgstr ""
+
+#: qcld-woowbot.php:235
+msgid "Disable WoowBot to load"
+msgstr ""
+
+#: qcld-woowbot.php:242
+msgid "Override WoowBot Icon's Position"
+msgstr ""
+
+#: qcld-woowbot.php:248
+msgid "120"
+msgstr ""
+
+#: qcld-woowbot.php:252
+msgid "50"
+msgstr ""
+
+#: qcld-woowbot.php:259
+msgid "From Right In px"
+msgstr ""
+
+#: qcld-woowbot.php:264
+msgid "From Bottom In px"
+msgstr ""
+
+#: qcld-woowbot.php:269
+msgid ""
+"Number of products to show in search results. ( '-1' for all products )."
+msgstr ""
+
+#: qcld-woowbot.php:285
+msgid "Icon - 0"
+msgstr ""
+
+#: qcld-woowbot.php:293
+msgid "Icon - 1"
+msgstr ""
+
+#: qcld-woowbot.php:298
+msgid "Icon - 2"
+msgstr ""
+
+#: qcld-woowbot.php:303
+msgid "Icon - 3"
+msgstr ""
+
+#: qcld-woowbot.php:309
+msgid "Icon - 4"
+msgstr ""
+
+#: qcld-woowbot.php:316
+msgid "Icon - 5"
+msgstr ""
+
+#: qcld-woowbot.php:321
+msgid "Icon - 6"
+msgstr ""
+
+#: qcld-woowbot.php:326
+msgid "Icon - 7"
+msgstr ""
+
+#: qcld-woowbot.php:336
+msgid "Icon -9"
+msgstr ""
+
+#: qcld-woowbot.php:341
+msgid "Icon - 10"
+msgstr ""
+
+#: qcld-woowbot.php:346
+msgid "Icon - 11"
+msgstr ""
+
+#: qcld-woowbot.php:351
+msgid "Icon - 12"
+msgstr ""
+
+#: qcld-woowbot.php:360
+msgid "Custom Icon"
+msgstr ""
+
+#: qcld-woowbot.php:371
+msgid "Upload custom Icon"
+msgstr ""
+
+#: qcld-woowbot.php:374
+msgid "Select file to upload"
+msgstr ""
+
+#: qcld-woowbot.php:379
+msgid "Upload Custom Icon"
+msgstr ""
+
+#: qcld-woowbot.php:389 qcld-woowbot.php:405
+msgid "Message setting for"
+msgstr ""
+
+#: qcld-woowbot.php:389
+msgid "Identity"
+msgstr ""
+
+#: qcld-woowbot.php:392
+msgid "Your Company or Website Name"
+msgstr ""
+
+#: qcld-woowbot.php:396
+msgid "Agent name"
+msgstr ""
+
+#: qcld-woowbot.php:400
+msgid "has joined the conversation"
+msgstr ""
+
+#: qcld-woowbot.php:405
+msgid "Greetings"
+msgstr ""
+
+#: qcld-woowbot.php:407
+msgid "Welcome to "
+msgstr ""
+
+#: qcld-woowbot.php:412
+msgid "Hi There! May I know your name?"
+msgstr ""
+
+#: qcld-woowbot.php:416
+msgid "I am "
+msgstr ""
+
+#: qcld-woowbot.php:421
+msgid "Nice to meet you"
+msgstr ""
+
+#: qcld-woowbot.php:430
+msgid "Message settings for"
+msgstr ""
+
+#: qcld-woowbot.php:430
+msgid "Products Search"
+msgstr ""
+
+#: qcld-woowbot.php:432
+msgid "I am here to find you the product you need. What are you shopping for"
+msgstr ""
+
+#: qcld-woowbot.php:436
+msgid "if products found"
+msgstr ""
+
+#: qcld-woowbot.php:441
+msgid "If no matching products is found"
+msgstr ""
+
+#: qcld-woowbot.php:445
+msgid "You can browse our extensive catalog. Just pick a category from below"
+msgstr ""
+
+#: qcld-woowbot.php:449
+msgid "Too many choices? Let's try another search term"
+msgstr ""
+
+#: qcld-woowbot.php:461
+msgid "You can paste or write your custom css here."
+msgstr ""
+
+#: qcld-woowbot.php:475
+msgid "Save Settings"
+msgstr ""
+
+#: qcld-woowbot.php:612
+#, php-format
+msgid ""
+"%s WoowBot for WooCommerce REQUIRES WooCommerce%s %sWooCommerce%s must be "
+"active for WoowBot to work. Please install & activate WooCommerce."
+msgstr ""
+
+#: qcld-woowbot.php:629
+msgid ""
+"%WoowBot for WooCommerce is inactive%s This version of WoowBot requires "
+"WooCommerce %s or newer. For more information about our WooCommerce version "
+"support %sclick here%s."
+msgstr ""
