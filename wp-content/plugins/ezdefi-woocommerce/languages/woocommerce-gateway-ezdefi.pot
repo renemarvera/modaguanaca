@@ -1,0 +1,242 @@
+# Copyright (C) 2020 ezDeFi
+# This file is distributed under the same license as the ezDeFi - Bitcoin, Ethereum and Cryptocurrencies Payment Gateway for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: ezDeFi - Bitcoin, Ethereum and Cryptocurrencies Payment Gateway for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-gateway-ezdefi\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-01-14T11:07:57+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: woocommerce-gateway-ezdefi\n"
+
+#. Plugin Name of the plugin
+msgid "ezDeFi - Bitcoin, Ethereum and Cryptocurrencies Payment Gateway for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://ezdefi.io/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Accept Bitcoin, Ethereum and Cryptocurrencies on your Woocommerce store with ezDeFi"
+msgstr ""
+
+#. Author of the plugin
+msgid "ezDeFi"
+msgstr ""
+
+#: includes/admin/class-wc-ezdefi-admin-notices.php:49
+msgid "Ezdefi is almost ready. To get started, <a href=\"%s\">set your gateway api url</a>."
+msgstr ""
+
+#: includes/admin/class-wc-ezdefi-admin-notices.php:53
+msgid "Ezdefi is almost ready. To get started, <a href=\"%s\">set your gateway api key</a>."
+msgstr ""
+
+#: includes/admin/class-wc-ezdefi-admin-notices.php:62
+msgid "Ezdefi is almost ready. To get started, <a href=\"%s\">set accepted currency</a>."
+msgstr ""
+
+#: includes/admin/class-wc-ezdefi-exception-page.php:23
+msgid "ezDeFi Exception Management"
+msgstr ""
+
+#: includes/admin/class-wc-ezdefi-exception-page.php:23
+msgid "ezDeFi Exception"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:11
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:12
+msgid "Enable ezDeFi"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:18
+msgid "Title"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:25
+#: includes/admin/ezdefi-settings.php:59
+msgid "Description"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:32
+msgid "Gateway API Url"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:39
+msgid "Gateway API Key"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:41
+msgid "<a target=\"_blank\" href=\"%s\">Register to get API Key</a>"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:44
+msgid "Payment Method"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:50
+msgid "Acceptable price variation"
+msgstr ""
+
+#: includes/admin/ezdefi-settings.php:57
+msgid "Accepted Currency"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-ezdefi-exception.php:63
+msgid "Received Amount"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-ezdefi-exception.php:64
+msgid "Currency"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-ezdefi-exception.php:65
+msgid "Order"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-ezdefi-exception.php:66
+msgid "Action"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:93
+#: includes/class-wc-ezdefi-ajax.php:105
+msgid "Can not get currency"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:120
+#: includes/class-wc-ezdefi-ajax.php:143
+#: includes/class-wc-ezdefi-ajax.php:168
+#: includes/class-wc-ezdefi-ajax.php:170
+#: includes/class-wc-ezdefi-ajax.php:256
+msgid "Can not create payment"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:223
+#: includes/class-wc-ezdefi-ajax.php:235
+#: includes/class-wc-ezdefi-ajax.php:322
+msgid "Can not get payment"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:344
+msgid "You have"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:344
+msgid "to scan this QR Code"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:362
+msgid "Address"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:369
+msgid "Amount"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:378
+msgid "If you get error when scanning this QR Code, please use"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:379
+msgid "alternative QR Code"
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:385
+msgid "You have to pay exact amount so that your order can be handled properly."
+msgstr ""
+
+#: includes/class-wc-ezdefi-ajax.php:388
+msgid "If you have difficulty for sending exact amount, try"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:62
+msgid "Pay with cryptocurrency"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:63
+msgid "Using BTC, ETH or any kinds of cryptocurrency handled by ezDeFi"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:181
+#: includes/class-wc-gateway-ezdefi.php:761
+msgid "Pay with any crypto wallet"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:182
+msgid "This method will adjust payment amount of each order by an acceptable number to help payment gateway identifying the uniqueness of that order."
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:186
+#: includes/class-wc-gateway-ezdefi.php:764
+msgid "Pay with ezDeFi wallet"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:187
+msgid "This method is more powerful when amount uniqueness of above method reaches allowable limit. Users need to install ezDeFi wallet then import their private key to pay using QR Code."
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:242
+msgid "Name"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:243
+msgid "Discount"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:244
+msgid "Expiration (minutes)"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:245
+msgid "Wallet Address"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:246
+msgid "Block Confirmation"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:247
+msgid "Decimal"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:269
+msgid "Edit"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:271
+msgid "Delete"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:281
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:548
+msgid "Add Currency"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:647
+msgid "Please select currency"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:664
+msgid "Awaiting ezdefi payment"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:761
+msgid "Any crypto wallet"
+msgstr ""
+
+#: includes/class-wc-gateway-ezdefi.php:764
+msgid "ezDeFi wallet"
+msgstr ""

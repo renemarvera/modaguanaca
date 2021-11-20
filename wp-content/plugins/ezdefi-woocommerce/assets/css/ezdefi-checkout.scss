@@ -1,0 +1,127 @@
+#wc-ezdefi-icon {
+  float: right;
+  margin-top: 3px;
+
+  img {
+    float: left !important;
+    width: 18px;
+    margin-left: 2px;
+  }
+}
+
+#wc-wzdefi-checkout {
+  .currency-select {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px -2.5px 0 -2.5px;
+
+    @media screen and (max-width: 575.98px) {
+      max-height: 160px;
+      overflow-y: auto;
+    }
+
+    .currency-item__wrap {
+      width: 140px;
+
+      @media screen and (max-width: 575.98px) {
+        width: 50%;
+        min-width: 140px;
+      }
+
+      padding: 0 5px;
+      margin-bottom: 10px;
+
+      .currency-item {
+        border: 1px solid rgba(0,0,0,.125);
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        display: flex;
+        padding: 5px;
+        transition: all .3s;
+        cursor: pointer;
+        color: #212529;
+        font-size: 16px;
+
+        &:hover, &.selected {
+          background-color: #d4edda;
+          border-color: #c3e6cb;
+        }
+
+        .item__logo {
+          margin-right: 5px;
+          position: relative;
+
+          img {
+            width: 20px;
+            margin-top: 8px;
+          }
+
+          .item__desc {
+            text-align: left;
+            position: absolute;
+            max-width: 200px;
+            min-width: 160px;
+            font-size: 13px;
+            color: #fff;
+            background: #343a40;
+            left: 25px;
+            padding: 3px 6px;
+            border-radius: 6px;
+            top: 4px;
+            display: none;
+            z-index: 99;
+
+            &:after {
+              content: "";
+              position: absolute;
+              top: 14px;
+              right: 100%;
+              margin-top: -5px;
+              border-width: 5px;
+              border-style: solid;
+              border-color: transparent #343a40 transparent transparent;
+            }
+          }
+
+          &:hover {
+            .item__desc {
+              display: initial;
+            }
+          }
+        }
+
+        .item__text {
+          text-align: left;
+          width: calc(100% - 28px);
+
+          @media screen and (max-width: 575.98px) {
+            font-size: 15px;
+          }
+
+          .item__price {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .item__info {
+            flex-grow: 1;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 90%;
+
+            .item__symbol {
+              text-transform: uppercase;
+            }
+
+            .item__discount {
+              color: #dc3545;
+            }
+          }
+        }
+      }
+    }
+  }
+}

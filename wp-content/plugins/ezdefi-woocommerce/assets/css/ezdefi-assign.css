@@ -1,0 +1,48 @@
+#wc-ezdefi-order-assign tbody tr.spinner-row {
+  text-align: center;
+}
+#wc-ezdefi-order-assign tbody tr.spinner-row .spinner {
+  float: none;
+}
+#wc-ezdefi-order-assign tbody tr td span.symbol {
+  text-transform: uppercase;
+}
+#wc-ezdefi-order-assign tbody tr td.amount-id-column .explorer-url {
+  display: block;
+}
+#wc-ezdefi-order-assign tbody tr td.order-column {
+  min-width: 150px;
+}
+#wc-ezdefi-order-assign tbody tr td.order-column .saved-order, #wc-ezdefi-order-assign tbody tr td.order-column .select-order {
+  margin-bottom: 8px;
+}
+
+#wc-ezdefi-exception-table-filter {
+  margin: 6px 0;
+}
+#wc-ezdefi-exception-table-filter .filter-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#wc-ezdefi-exception-table-filter .filter-container .filter-rows {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+#wc-ezdefi-exception-table-filter .filter-container .filter-rows:not(:last-child) {
+  margin-bottom: 10px;
+}
+#wc-ezdefi-exception-table-filter .filter-container .filter-rows label {
+  width: 110px;
+}
+
+.select2-container .select2-order .select2-order__row {
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.select2-container .select2-order .select2-order__row:last-child {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=ezdefi-assign.css.map */

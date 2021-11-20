@@ -1,0 +1,68 @@
+#wc-ezdefi-order-assign {
+  tbody {
+    tr {
+      &.spinner-row {
+        text-align: center;
+
+        .spinner {
+          float: none;
+        }
+      }
+      td {
+        span.symbol {
+          text-transform: uppercase;
+        }
+
+        &.amount-id-column {
+          .explorer-url {
+            display: block;
+          }
+        }
+
+        &.order-column {
+          min-width: 150px;
+          .saved-order, .select-order {
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#wc-ezdefi-exception-table-filter {
+  margin: 6px 0;
+
+  .filter-container {
+    display:flex;
+    flex-wrap: wrap;
+
+    .filter-rows {
+      width: 50%;
+      display: flex;
+      align-items: center;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      label {
+        width: 110px;
+      }
+    }
+  }
+}
+
+.select2-container {
+  .select2-order {
+    .select2-order__row {
+      margin-bottom: 2px;
+      display: flex;
+      justify-content: space-between;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

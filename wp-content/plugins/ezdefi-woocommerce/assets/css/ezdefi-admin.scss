@@ -1,0 +1,30 @@
+form {
+  .error {
+    font-size: 13px;
+    color: #dc3232;
+    display: block;
+    margin-top: 2px;
+  }
+
+  .correct {
+    color: #567622;
+  }
+
+  #woocommerce_ezdefi_api_key {
+    &.pending {
+      background-image: url(../images/spinner-2x.gif) !important;
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      background-position: 99% center;
+    }
+  }
+
+  #woocommerce_ezdefi_public_key {
+    &.pending {
+      background-image: url(../images/spinner-2x.gif) !important;
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      background-position: 99% center;
+    }
+  }
+}

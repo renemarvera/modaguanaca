@@ -1,0 +1,516 @@
+#wc_ezdefi_qrcode {
+  text-align: center;
+
+  .currency-select {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px 20px -5px;
+    max-height: 170px;
+
+    @media screen and (max-width: 575.98px) {
+      max-height: 150px;
+    }
+
+    overflow-y: auto;
+
+    .currency-item__wrap {
+      width: 160px;
+
+      @media screen and (max-width: 575.98px) {
+        width: 50%;
+        min-width: 140px;
+      }
+
+      padding: 0 5px;
+      margin-bottom: 10px;
+
+      .currency-item {
+        border: 1px solid rgba(0,0,0,.125);
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        display: flex;
+        padding: 5px;
+        transition: all .3s;
+        cursor: pointer;
+        color: #212529;
+        font-size: 16px;
+
+        &:hover, &.selected {
+          background-color: #d4edda;
+          border-color: #c3e6cb;
+        }
+
+        .item__logo {
+          margin-right: 5px;
+          position: relative;
+
+          img {
+            width: 22px;
+            margin-top: 6px;
+          }
+          .item__desc {
+            text-align: left;
+            position: absolute;
+            max-width: 200px;
+            min-width: 160px;
+            font-size: 13px;
+            color: #fff;
+            background: #343a40;
+            left: 25px;
+            padding: 3px 6px;
+            border-radius: 6px;
+            top: 4px;
+            display: none;
+            z-index: 99;
+
+            &:after {
+              content: "";
+              position: absolute;
+              top: 14px;
+              right: 100%;
+              margin-top: -5px;
+              border-width: 5px;
+              border-style: solid;
+              border-color: transparent #343a40 transparent transparent;
+            }
+          }
+
+          &:hover {
+            .item__desc {
+              display: initial;
+            }
+          }
+
+        }
+
+        .item__text {
+          text-align: left;
+          width: calc(100% - 28px);
+
+          @media screen and (max-width: 575.98px) {
+            font-size: 15px;
+          }
+
+          .item__price {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .item__info {
+            flex-grow: 1;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 90%;
+
+            .item__symbol {
+              text-transform: uppercase;
+            }
+
+            .item__discount {
+              color: #dc3545;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ezdefi-payment-tabs {
+    margin-bottom: 20px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      border-bottom: 1px solid rgba(0,0,0,.125);
+
+      @media screen and (max-width: 575.98px) {
+        display: flex;
+      }
+
+      li {
+        display: inline-block;
+        margin-bottom: -1px;
+        margin-left: 0 !important;
+
+        @media screen and (max-width: 575.98px) {
+          width: 50%;
+        }
+
+        &.ui-tabs-active {
+          a {
+            border: 1px solid rgba(0,0,0,.125);
+            border-bottom-color: transparent;
+          }
+        }
+
+        a {
+          background-color: #fff;
+          padding: 10px 20px;
+          display: block;
+          text-decoration: none;
+          outline: none !important;
+
+          @media screen and (max-width: 575.98px) {
+            padding: 5px;
+            font-size: 15px;
+            text-align: center;
+          }
+
+          &#tab-ezdefi_wallet {
+            background-size: 18px 18px;
+            background-position: 18px center;
+            background-repeat: no-repeat;
+            padding-left: 44px;
+
+            @media screen and (max-width: 575.98px) {
+              background-image: none !important;
+              padding-left: 0 !important;
+
+              span.small-screen {
+                background-size: 16px 16px;
+                background-position: 0 center;
+                padding-left: 20px;
+                background-repeat: no-repeat;
+              }
+            }
+          }
+
+          span.large-screen {
+            display: initial;
+
+            @media screen and (max-width: 575.98px) {
+              display: none;
+            }
+          }
+
+          span.small-screen {
+            display: none;
+
+            @media screen and (max-width: 575.98px) {
+              display: initial;
+            }
+          }
+        }
+      }
+    }
+
+    .ezdefi-payment-panel {
+      padding: 10px 0;
+      border: 1px solid rgba(0,0,0,.125);
+      border-top: none;
+      outline: none;
+      background: transparent !important;
+    }
+  }
+
+  .ezdefi-payment {
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    color: #212529;
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    @media screen and (max-width: 575.98px) {
+      padding: 6px 6px 0 6px;
+      font-size: 16px;
+    }
+
+    .exchange {
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      justify-content: center;
+
+      span {
+        padding: 0 10px;
+
+        @media screen and (max-width: 575.98px) {
+          padding: 0 5px;
+        }
+      }
+
+      img {
+        width: 16px;
+
+        @media screen and (max-width: 575.98px) {
+          width: 12px;
+        }
+      }
+    }
+
+    .count-down {
+      color: #f73f2e;
+      font-weight: bold;
+    }
+
+    .qrcode {
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+
+      &:not(.expired) {
+        border: 1px solid rgba(0, 0, 0, 0.125);
+
+        &:after {
+          content: "Scan QR Code or Click to pay";
+          font-size: 14px;
+          line-height: 12px;
+          position: absolute;
+          bottom: 6px;
+          width: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+
+      &.expired {
+        &:before {
+          content: '';
+          position: absolute;
+          background: rgba(255,255,255,.6);
+          width: 100%;
+          height: 100%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 10;
+        }
+
+        &:after {
+          content: 'Expired. Click to renew';
+          color: #f73f2e;
+          font-weight: bold;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 11;
+          width: 100%;
+          text-align: center;
+          font-size: 16px;
+        }
+
+        img {
+          opacity: .5;
+        }
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .blockUI::before {
+        display: none;
+      }
+
+      .blockMsg {
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .amount {
+      text-transform: uppercase;
+    }
+
+    .receive-address {
+      margin-bottom: 0;
+    }
+
+    .payment-amount {
+      margin-bottom: .5rem;
+
+      span.copy-content {
+        display: inline-block;
+      }
+
+      span.amount {
+        padding-left: 2px;
+      }
+    }
+
+    @media screen and (max-width: 575.98px) {
+      .receive-address, .payment-amount {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .receive-address {
+        margin-bottom: .5rem;
+      }
+
+      .payment-amount {
+        margin-bottom: 1rem;
+
+        span.copy-content {
+          max-width: 100px;
+        }
+      }
+    }
+
+    .copy-to-clipboard {
+      padding: 1px 22px 1px 6px;
+      background-color: rgba(0, 0, 0, 0.03);
+      position: relative;
+      border-radius: 4px;
+      cursor: pointer;
+
+      @media screen and (max-width: 575.98px) {
+        max-width: 160px;
+        display: inline-block;
+
+        span.copy-content {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          max-width: 100%;
+          display: inline-block;
+          float: left;
+        }
+      }
+
+      &:before {
+        content: "";
+        display: none;
+        position: absolute;
+        z-index: 9998;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid #333;
+      }
+
+      &:after {
+        content: "Copy to Clipboard";
+        display: none;
+        position: absolute;
+        z-index: 9999;
+        top: calc(100% + 5px);
+        left: 50%;
+        width: 130px;
+        height: auto;
+        color: #fff;
+        font-size: 12px;
+        transform: translateX(-50%);
+        padding: 3px 6px;
+        text-align: center;
+        background: #333;
+        border-radius: 3px;
+      }
+
+      &:hover {
+        &:before, &:after {
+          display: block;
+        }
+      }
+
+      &.copied {
+        &:after {
+          content: 'Copied!';
+          width: auto;
+        }
+      }
+
+      img {
+        width: 17px;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 2px;
+      }
+    }
+
+    .note {
+      color: #f73f2e;
+      font-weight: bold;
+      margin-bottom: 0;
+
+      @media screen and (max-width: 575.98px) {
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: .5rem;
+      }
+    }
+
+    .changeQrcode {
+      margin-top: .75rem;
+      font-weight: bold;
+
+      @media screen and (max-width: 575.98px) {
+        text-align: left;
+        font-size: 15px;
+        margin: .5rem 0;
+      }
+    }
+
+    span.currency {
+      text-transform: uppercase;
+    }
+
+    .app-link-list {
+      a {
+        display: inline-block;
+
+        img {
+          width: 120px;
+          margin: 0 5px;
+
+          @media screen and (max-width: 575.98px) {
+            width: 85px;
+          }
+        }
+      }
+    }
+  }
+
+  #amount_id {
+    .ezdefi-payment {
+      .qrcode {
+        &:not(.expired) {
+          padding: 6px 6px 18px 6px
+        }
+      }
+    }
+  }
+
+  #ezdefi_wallet {
+    .ezdefi-payment {
+      .qrcode {
+        &:not(.expired) {
+          padding: 8px 8px 20px 8px !important;
+        }
+      }
+    }
+  }
+
+  .wc-ezdefi-loader {
+    border: 3px solid #eee;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 3px solid #333;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 20px auto;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+}
